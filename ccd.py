@@ -7,10 +7,13 @@ import node_graph as ng
 import operator
 
 
-def update_v(rows,cols,map_data,v_data):
-    for i in range(rows):
-        for j in range(cols):
-            v_data[i,j] = map_data[i][j].h                      
+def update_v(rows,cols,nodes,v_data):
+    color = 1
+    for node in nodes:
+        color = color + 1
+        for line in node.space:
+            for cell in line:
+                v_data[cell.row,cell.col] = color                
 
 ROBOT_SIZE = 3
 rows = 20
@@ -19,9 +22,11 @@ g = gm.grid_map(rows,cols)
 g.init_map()
 g.update_weight(ROBOT_SIZE)
 graph = ng.node_graph(g)
-graph.create_graph()
+nodes = graph.close
 fig,ax=plt.subplots()
 ax.set_aspect('equal')
-ax.pcolor(g.v_data,cmap=plt.cm.Reds,edgecolors='k')
-
+v_data = np.zeros((rows, cols))
+update_v(rows,cols,nodes,v_data)
+#ax.pcolor(v_data,cmap=plt.cm.Reds,edgecolors='k')
+ax.pcolor(v_data,edgecolors='k')
 plt.show()

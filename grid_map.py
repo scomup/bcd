@@ -97,12 +97,17 @@ class grid_map:
         self.start = self.map_data[row][col]
 
     def init_map(self):
+        self.map_data[16][11].stat = Stat.OBSTACLE
+        self.map_data[16][12].stat = Stat.OBSTACLE
+        self.map_data[16][13].stat = Stat.OBSTACLE
+        self.map_data[16][14].stat = Stat.OBSTACLE
+    
         self.map_data[15][5].stat = Stat.OBSTACLE
         self.map_data[15][6].stat = Stat.OBSTACLE
         self.map_data[15][7].stat = Stat.OBSTACLE
         self.map_data[15][8].stat = Stat.OBSTACLE
         self.map_data[15][9].stat = Stat.OBSTACLE
-        self.map_data[15][10].stat = Stat.OBSTACLE
+        #self.map_data[15][10].stat = Stat.OBSTACLE
         self.map_data[15][11].stat = Stat.OBSTACLE
         self.map_data[15][12].stat = Stat.OBSTACLE
         self.map_data[15][13].stat = Stat.OBSTACLE
@@ -113,7 +118,7 @@ class grid_map:
         self.map_data[14][7].stat = Stat.OBSTACLE
         self.map_data[14][8].stat = Stat.OBSTACLE
         self.map_data[14][9].stat = Stat.OBSTACLE
-        self.map_data[14][10].stat = Stat.OBSTACLE
+        #self.map_data[14][10].stat = Stat.OBSTACLE
         self.map_data[14][11].stat = Stat.OBSTACLE
         self.map_data[14][12].stat = Stat.OBSTACLE
         self.map_data[14][13].stat = Stat.OBSTACLE
@@ -124,7 +129,7 @@ class grid_map:
         self.map_data[13][7].stat = Stat.OBSTACLE
         self.map_data[13][8].stat = Stat.OBSTACLE
         self.map_data[13][9].stat = Stat.OBSTACLE
-        self.map_data[13][10].stat = Stat.OBSTACLE
+        #self.map_data[13][10].stat = Stat.OBSTACLE
         self.map_data[13][11].stat = Stat.OBSTACLE
         self.map_data[13][12].stat = Stat.OBSTACLE
         self.map_data[13][13].stat = Stat.OBSTACLE
@@ -135,7 +140,7 @@ class grid_map:
         self.map_data[12][7].stat = Stat.OBSTACLE
         self.map_data[12][8].stat = Stat.OBSTACLE
         self.map_data[12][9].stat = Stat.OBSTACLE
-        self.map_data[12][10].stat = Stat.OBSTACLE
+        #self.map_data[12][10].stat = Stat.OBSTACLE
         self.map_data[12][11].stat = Stat.OBSTACLE
         self.map_data[12][12].stat = Stat.OBSTACLE
         self.map_data[12][13].stat = Stat.OBSTACLE
@@ -146,7 +151,7 @@ class grid_map:
         self.map_data[11][7].stat = Stat.OBSTACLE
         self.map_data[11][8].stat = Stat.OBSTACLE
         self.map_data[11][9].stat = Stat.OBSTACLE
-        self.map_data[11][10].stat = Stat.OBSTACLE
+        #self.map_data[11][10].stat = Stat.OBSTACLE
         self.map_data[11][11].stat = Stat.OBSTACLE
         self.map_data[11][12].stat = Stat.OBSTACLE
         self.map_data[11][13].stat = Stat.OBSTACLE
@@ -157,7 +162,7 @@ class grid_map:
         self.map_data[10][7].stat = Stat.OBSTACLE
         self.map_data[10][8].stat = Stat.OBSTACLE
         self.map_data[10][9].stat = Stat.OBSTACLE
-        self.map_data[10][10].stat = Stat.OBSTACLE
+        #self.map_data[10][10].stat = Stat.OBSTACLE
         self.map_data[10][11].stat = Stat.OBSTACLE
         self.map_data[10][12].stat = Stat.OBSTACLE
         self.map_data[10][13].stat = Stat.OBSTACLE

@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIG	grid_map.py	/^BIG = 100$/;"	kind:variable	line:7
+BIG_2	grid_map.py	/^BIG_2 = BIG\/2$/;"	kind:variable	line:8
+CLOSE	grid_map.py	/^    CLOSE = 2$/;"	kind:variable	line:16
+FREE	grid_map.py	/^    FREE = 0$/;"	kind:variable	line:10
+INF	grid_map.py	/^INF = 200$/;"	kind:variable	line:6
+INF	grid_map.py	/^INF = float("inf")$/;"	kind:variable	line:5
+NEW	grid_map.py	/^    NEW = 0$/;"	kind:variable	line:14
+OBSTACLE	grid_map.py	/^    OBSTACLE = 1$/;"	kind:variable	line:11
+OPEN	grid_map.py	/^    OPEN = 1$/;"	kind:variable	line:15
+ROBOT_SIZE	ccd.py	/^ROBOT_SIZE = 3$/;"	kind:variable	line:15
+Stat	grid_map.py	/^class Stat(Enum):$/;"	kind:class	line:9
+Tag	grid_map.py	/^class Tag(Enum):$/;"	kind:class	line:13
+__init__	grid_map.py	/^    def __init__(self,row,col):$/;"	kind:member	line:19
+__init__	grid_map.py	/^    def __init__(self,rows,cols):$/;"	kind:member	line:46
+__init__	node_graph.py	/^    def __init__(self,grid_map):$/;"	kind:member	line:15
+__init__	node_graph.py	/^    def __init__(self,id):$/;"	kind:member	line:5
+add_slice	node_graph.py	/^    def add_slice(self, line_slide):$/;"	kind:member	line:10
+bcd.py	bcd.py	1;"	kind:file	line:1
+ccd.py	ccd.py	1;"	kind:file	line:1
+check_connect	node_graph.py	/^    def check_connect(self, a, b):$/;"	kind:member	line:20
+cols	ccd.py	/^cols = 20$/;"	kind:variable	line:17
+cost	grid_map.py	/^    def cost(self,to_ceil):                  $/;"	kind:member	line:32
+create_graph	node_graph.py	/^    def create_graph(self):$/;"	kind:member	line:34
+distance	grid_map.py	/^    def distance(self,cell_a,cell_b):$/;"	kind:member	line:69
+g	ccd.py	/^g = gm.grid_map(rows,cols)$/;"	kind:variable	line:18
+graph	ccd.py	/^graph = ng.node_graph(g)$/;"	kind:variable	line:21
+grid_map	grid_map.py	/^class grid_map:$/;"	kind:class	line:45
+grid_map.py	grid_map.py	1;"	kind:file	line:1
+init_map	grid_map.py	/^    def init_map(self):$/;"	kind:member	line:99
+map_cell	grid_map.py	/^class map_cell:$/;"	kind:class	line:18
+nearby	grid_map.py	/^    def nearby(self,cell,radius):$/;"	kind:member	line:59
+node	node_graph.py	/^class node():$/;"	kind:class	line:4
+node_graph	node_graph.py	/^class node_graph:$/;"	kind:class	line:14
+node_graph.py	node_graph.py	1;"	kind:file	line:1
+rows	ccd.py	/^rows = 20$/;"	kind:variable	line:16
+set_goal	grid_map.py	/^    def set_goal(self,row,col):$/;"	kind:member	line:93
+set_start	grid_map.py	/^    def set_start(self,row,col):$/;"	kind:member	line:96
+update_v	ccd.py	/^def update_v(rows,cols,map_data,v_data):$/;"	kind:function	line:10
+update_weight	grid_map.py	/^    def update_weight(self,radius):$/;"	kind:member	line:73
